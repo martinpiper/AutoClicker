@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="979a7c1c-b192-44d7-aee1-92d527c261ca" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cM1VuvKbISbIc14R22T4SITUk7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+  </component>
+  <component name="RunManager" selected="Application.AutoClicker attack!">
+    <configuration name="AutoClicker attack!" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoClicker" />
+      <module name="AutoClicker" />
+      <option name="PROGRAM_PARAMETERS" value="5000 25 25" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoClicker mine" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoClicker" />
+      <module name="AutoClicker" />
+      <option name="PROGRAM_PARAMETERS" value="5000 5000 25" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoSmelt go" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoSmelt" />
+      <module name="AutoClicker" />
+      <option name="PROGRAM_PARAMETERS" value="5000 71 inventory.col1 inventory.row1 4 3 inventory.col2 inventory.row1 6000 5 maker.x maker.y" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.replicanet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoSmelt read mouse" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoSmelt" />
+      <module name="AutoClicker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.replicanet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AutoClicker attack!" />
+      <item itemvalue="Application.AutoClicker mine" />
+      <item itemvalue="Application.AutoSmelt go" />
+      <item itemvalue="Application.AutoSmelt read mouse" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AutoSmelt read mouse" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="979a7c1c-b192-44d7-aee1-92d527c261ca" name="Default Changelist" comment="" />
+      <created>1590323675908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590323675908</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1799" y="-6" key="#Project_Structure" timestamp="1590324325898">
+      <screen x="-1920" y="-6" width="1280" height="693" />
+    </state>
+    <state x="-1799" y="-6" key="#Project_Structure/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590324325898" />
+    <state x="-1824" y="-6" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590547161614">
+      <screen x="-1920" y="-6" width="1280" height="693" />
+    </state>
+    <state x="-1824" y="-6" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590547161614" />
+    <state x="144" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590373395320" />
+    <state x="-1549" y="129" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590324018713">
+      <screen x="-1920" y="-6" width="1280" height="693" />
+    </state>
+    <state x="-1549" y="129" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590324018713" />
+    <state x="-1599" y="70" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1590415433820">
+      <screen x="-1920" y="-6" width="1280" height="693" />
+    </state>
+    <state x="-1599" y="70" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590415433820" />
+    <state width="1237" height="109" key="GridCell.Tab.0.bottom" timestamp="1590555258563">
+      <screen x="-1920" y="-6" width="1280" height="693" />
+    </state>
+    <state width="1237" height="109" key="GridCell.Tab.0.bottom/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590555258563" />
+    <state width="1237" height="109" key="GridCell.Tab.0.center" timestamp="1590555258563">
+      <screen x="-1920" y="-6" width="1280" height="693" />
+    </state>
+    <state width="1237" height="109" key="GridCell.Tab.0.center/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590555258563" />
+    <state width="1237" height="109" key="GridCell.Tab.0.left" timestamp="1590555258562">
+      <screen x="-1920" y="-6" width="1280" height="693" />
+    </state>
+    <state width="1237" height="109" key="GridCell.Tab.0.left/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590555258562" />
+    <state width="1237" height="109" key="GridCell.Tab.0.right" timestamp="1590555258563">
+      <screen x="-1920" y="-6" width="1280" height="693" />
+    </state>
+    <state width="1237" height="109" key="GridCell.Tab.0.right/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590555258563" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1590415461016">
+      <screen x="-1920" y="-6" width="1280" height="693" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590415461016" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1590415461016">
+      <screen x="-1920" y="-6" width="1280" height="693" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590415461016" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1590415461016">
+      <screen x="-1920" y="-6" width="1280" height="693" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590415461016" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1590415461016">
+      <screen x="-1920" y="-6" width="1280" height="693" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590415461016" />
+    <state x="-1549" y="82" key="extract.method.dialog" timestamp="1590373316144">
+      <screen x="-1920" y="-6" width="1280" height="693" />
+    </state>
+    <state x="-1549" y="82" key="extract.method.dialog/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590373316144" />
+    <state x="-1574" y="43" width="589" height="582" key="find.popup" timestamp="1590407317553">
+      <screen x="-1920" y="-6" width="1280" height="693" />
+    </state>
+    <state x="-1574" y="43" width="589" height="582" key="find.popup/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590407317553" />
+    <state x="-1505" y="144" width="672" height="452" key="search.everywhere.popup" timestamp="1590383328123">
+      <screen x="-1920" y="-6" width="1280" height="693" />
+    </state>
+    <state x="-1505" y="144" width="672" height="452" key="search.everywhere.popup/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590383328123" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590323707107" />
+  </component>
+</project>
