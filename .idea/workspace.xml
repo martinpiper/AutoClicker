@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="979a7c1c-b192-44d7-aee1-92d527c261ca" name="Default Changelist" comment="" />
+    <list default="true" id="979a7c1c-b192-44d7-aee1-92d527c261ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +16,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cM1VuvKbISbIc14R22T4SITUk7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,7 +34,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
-  <component name="RunManager" selected="Application.AutoClicker attack!">
+  <component name="RunManager" selected="Application.AutoClicker mine">
     <configuration name="AutoClicker attack!" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoClicker" />
       <module name="AutoClicker" />
@@ -115,22 +121,26 @@
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
     <state x="-1599" y="70" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590415433820" />
-    <state width="1237" height="109" key="GridCell.Tab.0.bottom" timestamp="1590555258563">
-      <screen x="-1920" y="-6" width="1280" height="693" />
+    <state width="1877" height="56" key="GridCell.Tab.0.bottom" timestamp="1590588746660">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1237" height="109" key="GridCell.Tab.0.bottom/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590555258563" />
-    <state width="1237" height="109" key="GridCell.Tab.0.center" timestamp="1590555258563">
-      <screen x="-1920" y="-6" width="1280" height="693" />
+    <state width="1237" height="56" key="GridCell.Tab.0.bottom/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590570303527" />
+    <state width="1877" height="56" key="GridCell.Tab.0.bottom/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590588746660" />
+    <state width="1877" height="56" key="GridCell.Tab.0.center" timestamp="1590588746660">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1237" height="109" key="GridCell.Tab.0.center/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590555258563" />
-    <state width="1237" height="109" key="GridCell.Tab.0.left" timestamp="1590555258562">
-      <screen x="-1920" y="-6" width="1280" height="693" />
+    <state width="1237" height="56" key="GridCell.Tab.0.center/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590570303526" />
+    <state width="1877" height="56" key="GridCell.Tab.0.center/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590588746660" />
+    <state width="1877" height="56" key="GridCell.Tab.0.left" timestamp="1590588746660">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1237" height="109" key="GridCell.Tab.0.left/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590555258562" />
-    <state width="1237" height="109" key="GridCell.Tab.0.right" timestamp="1590555258563">
-      <screen x="-1920" y="-6" width="1280" height="693" />
+    <state width="1237" height="56" key="GridCell.Tab.0.left/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590570303525" />
+    <state width="1877" height="56" key="GridCell.Tab.0.left/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590588746660" />
+    <state width="1877" height="56" key="GridCell.Tab.0.right" timestamp="1590588746660">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1237" height="109" key="GridCell.Tab.0.right/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590555258563" />
+    <state width="1237" height="56" key="GridCell.Tab.0.right/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590570303527" />
+    <state width="1877" height="56" key="GridCell.Tab.0.right/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590588746660" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1590415461016">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
