@@ -10,6 +10,6 @@ Simple configurable mouse automation, useful for simple games that need to mine/
 	//          Wait 6000 milliseconds
 	//          Click 5 times at maker.x maker.y (to really get any remaining parts if there is lag from the server)
 
-For easier smelting use the inventory slots with:w
+For easier smelting use the inventory slots with:
     5000 100 inventory.col1 inventory.row1 4 3 inventory.col2 inventory.row1 6000 5 maker.x maker.y
 Place the coal in the first slot, place the ore in the second slot.

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="979a7c1c-b192-44d7-aee1-92d527c261ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/AutoClicker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -20,6 +25,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1cM1VuvKbISbIc14R22T4SITUk7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -29,13 +41,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
-  <component name="RunManager" selected="Application.AutoSmelt go">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.replicanet" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AutoClicker attack!">
     <configuration name="AutoClicker attack!" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoClicker" />
       <module name="AutoClicker" />
@@ -52,10 +70,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoSmelt go" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoSmelt" />
+    <configuration name="AutoClicker money deposit - VFast" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoClicker" />
       <module name="AutoClicker" />
-      <option name="PROGRAM_PARAMETERS" value="5000 100 inventory.col1 inventory.row1 4 3 inventory.col2 inventory.row1 6000 5 maker.x maker.y" />
+      <option name="PROGRAM_PARAMETERS" value="5000 1 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoClicker pickup slowly" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoClicker" />
+      <module name="AutoClicker" />
+      <option name="PROGRAM_PARAMETERS" value="5000 500 500" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoDrop for metal presses" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoDrop" />
+      <module name="AutoClicker" />
+      <option name="PROGRAM_PARAMETERS" value="5000 100 100" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoDrop for smelting slow" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoDrop" />
+      <module name="AutoClicker" />
+      <option name="PROGRAM_PARAMETERS" value="5000 2000 2000" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoDrop for smelting" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoDrop" />
+      <module name="AutoClicker" />
+      <option name="PROGRAM_PARAMETERS" value="5000 500 500" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoDrop rapid drop (dispose)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoDrop" />
+      <module name="AutoClicker" />
+      <option name="PROGRAM_PARAMETERS" value="5000 1 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoDrop rapid drop" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoDrop" />
+      <module name="AutoClicker" />
+      <option name="PROGRAM_PARAMETERS" value="5000 15 15" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoDropRefinery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoDropRefinery" />
+      <module name="AutoClicker" />
+      <option name="PROGRAM_PARAMETERS" value="5000 15 2 30" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.replicanet.*" />
@@ -66,9 +140,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoSmelt read mouse" type="Application" factoryName="Application" temporary="true">
+    <configuration name="AutoSmelt go" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoSmelt" />
       <module name="AutoClicker" />
+      <option name="PROGRAM_PARAMETERS" value="5000 10 inventory.col1 inventory.row1 4 3 inventory.col2 inventory.row1 6000 5 maker.x maker.y" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.replicanet.*" />
@@ -81,16 +156,24 @@
     </configuration>
     <list>
       <item itemvalue="Application.AutoClicker attack!" />
+      <item itemvalue="Application.AutoClicker money deposit - VFast" />
       <item itemvalue="Application.AutoClicker mine" />
+      <item itemvalue="Application.AutoClicker pickup slowly" />
+      <item itemvalue="Application.AutoDrop rapid drop (dispose)" />
+      <item itemvalue="Application.AutoDrop rapid drop" />
+      <item itemvalue="Application.AutoDrop for smelting" />
+      <item itemvalue="Application.AutoDrop for smelting slow" />
+      <item itemvalue="Application.AutoDrop for metal presses" />
       <item itemvalue="Application.AutoSmelt go" />
-      <item itemvalue="Application.AutoSmelt read mouse" />
+      <item itemvalue="Application.AutoDropRefinery" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AutoSmelt read mouse" />
+        <item itemvalue="Application.AutoDropRefinery" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -105,71 +188,76 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1799" y="-6" key="#Project_Structure" timestamp="1590324325898">
+    <state x="-1394" y="197" key="#Notifications" timestamp="1597712810842">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state x="-1799" y="-6" key="#Project_Structure/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590324325898" />
-    <state x="-1824" y="-6" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595480474090">
+    <state x="-1394" y="197" key="#Notifications/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1597712810842" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1601168638849">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1601168638849" />
+    <state x="-1824" y="-6" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602066998607">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state x="-1824" y="-6" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1595480474090" />
-    <state x="144" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590373395320" />
-    <state x="-1549" y="129" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590324018713">
+    <state x="-1824" y="-6" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1602066998607" />
+    <state x="-1549" y="129" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1598707036063">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state x="-1549" y="129" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590324018713" />
-    <state x="-1599" y="70" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1590415433820">
+    <state x="-1549" y="129" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1598707036063" />
+    <state x="-1599" y="70" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601115162835">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state x="-1599" y="70" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590415433820" />
-    <state width="1237" height="133" key="GridCell.Tab.0.bottom" timestamp="1595483507897">
+    <state x="-1599" y="70" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1601115162835" />
+    <state width="1237" height="182" key="GridCell.Tab.0.bottom" timestamp="1602069101389">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state width="1237" height="133" key="GridCell.Tab.0.bottom/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1595483507897" />
-    <state width="1877" height="56" key="GridCell.Tab.0.bottom/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590588746660" />
-    <state width="1237" height="133" key="GridCell.Tab.0.center" timestamp="1595483507897">
+    <state width="1237" height="182" key="GridCell.Tab.0.bottom/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1602069101389" />
+    <state width="1877" height="63" key="GridCell.Tab.0.bottom/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1600069998327" />
+    <state width="1237" height="182" key="GridCell.Tab.0.center" timestamp="1602069101388">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state width="1237" height="133" key="GridCell.Tab.0.center/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1595483507897" />
-    <state width="1877" height="56" key="GridCell.Tab.0.center/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590588746660" />
-    <state width="1237" height="133" key="GridCell.Tab.0.left" timestamp="1595483507897">
+    <state width="1237" height="182" key="GridCell.Tab.0.center/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1602069101388" />
+    <state width="1877" height="63" key="GridCell.Tab.0.center/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1600069998327" />
+    <state width="1237" height="182" key="GridCell.Tab.0.left" timestamp="1602069101388">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state width="1237" height="133" key="GridCell.Tab.0.left/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1595483507897" />
-    <state width="1877" height="56" key="GridCell.Tab.0.left/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590588746660" />
-    <state width="1237" height="133" key="GridCell.Tab.0.right" timestamp="1595483507897">
+    <state width="1237" height="182" key="GridCell.Tab.0.left/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1602069101388" />
+    <state width="1877" height="63" key="GridCell.Tab.0.left/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1600069998326" />
+    <state width="1237" height="182" key="GridCell.Tab.0.right" timestamp="1602069101388">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state width="1237" height="133" key="GridCell.Tab.0.right/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1595483507897" />
-    <state width="1877" height="56" key="GridCell.Tab.0.right/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590588746660" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1595404035422">
+    <state width="1237" height="182" key="GridCell.Tab.0.right/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1602069101388" />
+    <state width="1877" height="63" key="GridCell.Tab.0.right/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1600069998327" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1602069101384">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1595404035422" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1595404035422">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1602069101384" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1602069101384">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1595404035422" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1595404035421">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1602069101384" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1602069101384">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1595404035421" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1595404035422">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1602069101384" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1602069101384">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1595404035422" />
-    <state x="-1549" y="82" key="extract.method.dialog" timestamp="1590373316144">
+    <state width="1237" height="204" key="GridCell.Tab.1.right/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1602069101384" />
+    <state x="-1623" y="148" key="run.anything.popup" timestamp="1602055455890">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state x="-1549" y="82" key="extract.method.dialog/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590373316144" />
-    <state x="-1574" y="43" width="589" height="582" key="find.popup" timestamp="1590407317553">
-      <screen x="-1920" y="-6" width="1280" height="693" />
-    </state>
-    <state x="-1574" y="43" width="589" height="582" key="find.popup/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590407317553" />
-    <state x="-1505" y="144" width="672" height="452" key="search.everywhere.popup" timestamp="1590383328123">
-      <screen x="-1920" y="-6" width="1280" height="693" />
-    </state>
-    <state x="-1505" y="144" width="672" height="452" key="search.everywhere.popup/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1590383328123" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590323707107" />
+    <state x="-1623" y="148" key="run.anything.popup/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1602055455890" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/replicanet/AutoDropRefinery.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
