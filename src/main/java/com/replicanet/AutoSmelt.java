@@ -55,7 +55,7 @@ public class AutoSmelt {
         System.out.println("Stopped");
     }
 
-    private static void clickItem(Robot robot) {
+    public static void clickItem(Robot robot) {
         System.out.println("Click!");
         try {
             Thread.sleep(100);
@@ -73,10 +73,12 @@ public class AutoSmelt {
         return System.getProperty(value,value);
     }
 
-    private static void reliableMoveTo(Robot robot, String xpos, String ypos) throws InterruptedException {
+    public static void reliableMoveTo(Robot robot, String xpos, String ypos) throws InterruptedException {
         int ixpos = Integer.parseInt(resolveValue(xpos));
         int iypos = Integer.parseInt(resolveValue(ypos));
-
+        reliableMoveTo(robot , ixpos, iypos);
+    }
+    public static void reliableMoveTo(Robot robot, int ixpos, int iypos) throws InterruptedException {
         // This jiggles the mouse around a bit for the GUI to catch-up with the inputs
         Thread.sleep(100);
         robot.mouseMove(ixpos+2, iypos+2);
