@@ -4,6 +4,11 @@ import com.tailworks.ml.neuralnet.math.Matrix;
 import com.tailworks.ml.neuralnet.math.Vec;
 import com.tailworks.ml.neuralnet.optimizer.Optimizer;
 
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+
 /**
  * A single layer in the network.
  * Contains the weights and biases coming into this layer.
@@ -167,6 +172,32 @@ public class Layer {
 
         public double[] getBias() {
             return bias;
+        }
+    }
+
+    public void write(DataOutputStream stream) throws IOException {
+        if (null != weights) {
+            stream.writeBoolean(true);
+            weights.write(stream);
+        } else {
+            stream.writeBoolean(false);
+        }
+        if (null != bias) {
+            stream.writeBoolean(true);
+            bias.write(stream);
+        } else {
+            stream.writeBoolean(false);
+        }
+    }
+
+    public void read(DataInputStream stream) throws IOException {
+        boolean flag = stream.readBoolean();
+        if (flag) {
+            weights.read(stream);
+        }
+        flag = stream.readBoolean();
+        if (flag) {
+            bias.read(stream);
         }
     }
 }

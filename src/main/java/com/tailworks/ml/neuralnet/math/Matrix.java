@@ -1,6 +1,10 @@
 package com.tailworks.ml.neuralnet.math;
 
 
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
 import java.util.Arrays;
 
 import static java.lang.String.format;
@@ -109,5 +113,21 @@ public class Matrix {
         return m;
     }
 
+    public void write(DataOutputStream stream) throws IOException {
+        for (int y = 0 ; y < data.length ; y++) {
+            for (int x = 0 ; x < data[0].length ; x++) {
+                stream.writeDouble(data[y][x]);
+            }
+        }
+    }
+
+    public void read(DataInputStream stream) throws IOException {
+        for (int y = 0 ; y < data.length ; y++) {
+            for (int x = 0 ; x < data[0].length ; x++) {
+                double value = stream.readDouble();
+                data[y][x] = value;
+            }
+        }
+    }
 }
 

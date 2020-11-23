@@ -1,5 +1,8 @@
 package com.tailworks.ml.neuralnet.math;
 
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.stream.DoubleStream;
 
@@ -158,4 +161,16 @@ public class Vec {
         return DoubleStream.of(data).sum();
     }
 
+    public void write(DataOutputStream stream) throws IOException {
+        for (double value : data) {
+            stream.writeDouble(value);
+        }
+    }
+
+    public void read(DataInputStream stream) throws IOException {
+        for (int i = 0 ; i < data.length; i++) {
+            double value = stream.readDouble();
+            data[i] = value;
+        }
+    }
 }

@@ -6,6 +6,7 @@ import com.tailworks.ml.neuralnet.math.Vec;
 import com.tailworks.ml.neuralnet.optimizer.GradientDescent;
 import com.tailworks.ml.neuralnet.optimizer.Optimizer;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -240,6 +241,18 @@ public class NeuralNetwork {
 
         public Layer.LayerState[] getLayers() {
             return layers;
+        }
+    }
+
+    public void write(DataOutputStream stream) throws IOException {
+        for (Layer layer : layers) {
+            layer.write(stream);
+        }
+    }
+
+    public void read(DataInputStream stream) throws IOException {
+        for (Layer layer : layers) {
+            layer.read(stream);
         }
     }
 }
