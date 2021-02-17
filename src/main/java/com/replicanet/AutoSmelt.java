@@ -88,4 +88,15 @@ public class AutoSmelt {
         robot.mouseMove(ixpos, iypos);
         Thread.sleep(100);
     }
+
+    public static void reliableMoveToFast(Robot robot, int ixpos, int iypos) throws InterruptedException {
+        // This jiggles the mouse around a bit for the GUI to catch-up with the inputs
+        Thread.sleep(10);
+        robot.mouseMove(ixpos+2, iypos+2);
+        Thread.sleep(10);
+        robot.mouseMove(ixpos-2, iypos-2);
+        Thread.sleep(10);
+        robot.mouseMove(ixpos, iypos);
+        Thread.sleep(10);
+    }
 }

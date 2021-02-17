@@ -7,21 +7,21 @@ import com.tailworks.ml.neuralnet.optimizer.Nesterov;
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.event.InputEvent;
+import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.*;
 import java.util.List;
 
 import static com.tailworks.ml.neuralnet.Activation.*;
 
-public class BloxburgAutoFish {
+public class BloxburgAutoMine {
 
     public static void main(String args[]) throws Exception {
 
+        // Set graphics details to "maximum", setting to "1 dot (minimum)" will cause the glitch where it is possible to drop out of the mine
 //        captureImages();
 
         networkRun();
@@ -30,14 +30,17 @@ public class BloxburgAutoFish {
     private static void networkRun() throws IOException, ClassNotFoundException, AWTException, InterruptedException {
 //        int imageWidth = 256 , imageHeight = 256;
 //        int imageWidth = 128 , imageHeight = 128;
-        int imageWidth = 64 , imageHeight = 64;
+        int imageWidth = 96 , imageHeight = 96;
+//        int imageWidth = 64 , imageHeight = 64;
 //        int imageWidth = 32 , imageHeight = 32;
 //        int forInputSize = imageWidth * imageHeight * 3;
         int forInputSize = imageWidth * imageHeight;
 //        int forHiddenLayers = 2048;
-//        int forHiddenLayers = 512;
+        int forHiddenLayers = 512;
+//        int forHiddenLayers = 384;
 //        int forHiddenLayers = 256;
-        int forHiddenLayers = 128;
+//        int forHiddenLayers = 192;
+//        int forHiddenLayers = 128;
 //        int forHiddenLayers = 64;
 //        int forHiddenLayers = 32;
 //        int batchUpdate = 1;
@@ -46,63 +49,108 @@ public class BloxburgAutoFish {
         // https://towardsdatascience.com/part-3-implementation-in-java-7bd305faad0
         NeuralNetwork network = getNeuralNetwork(forInputSize, forHiddenLayers);
 
-        readNetwork(network,"target/t.net");
+        readNetwork(network,"target/BloxburgMine.net");
 
-//        printResults(imageWidth, imageHeight, forInputSize, network);
+        printResults(imageWidth, imageHeight, forInputSize, network);
 
-//        trainNetwork(imageWidth, imageHeight, forInputSize, batchUpdate, network, "target/t.net");
+//        trainNetwork(imageWidth, imageHeight, forInputSize, batchUpdate, network, "target/BloxburgMine.net");
         // Although the network can be written after every iteration by trainNetwork(...,writeName), the below can force a write as well:
-//        writeNetwork(network,"target/t.net");
+//        writeNet\work(network,"target/BloxburgMine.net");
 
-        //        readNetwork(network,"target/t.net");
+//        readNetwork(network,"target/BloxburgMine.net");
 
         System.out.println("Test network");
         printResults(imageWidth, imageHeight, forInputSize, network);
-
-
-//        NeuralNetwork newNetwork = getNeuralNetwork(forInputSize, forHiddenLayers);
-//        readNetwork(newNetwork,"target/t.net");
-//        System.out.println("Test network again");
-//        printResults(imageWidth, imageHeight, forInputSize, newNetwork);
 
         runLiveChecks(imageWidth, imageHeight, forInputSize, network);
     }
 
     private static void runLiveChecks(int imageWidth, int imageHeight, int forInputSize, NeuralNetwork network) throws AWTException, IOException, InterruptedException {
-        int hits = 0;
-        int timeout = 0;
-        while (true) {
-            BufferedImage image = getBufferedImage();
-            Vec testInput = getVecFromImage(imageWidth, imageHeight, forInputSize,image);
-            Result out = network.evaluate(testInput);
+        int captureIndex = 0;
+        Robot robot = new Robot();
+        System.out.println("Will be Bloxburg mining...");
+        Thread.sleep(5000);
+        Point originalPoint = MouseInfo.getPointerInfo().getLocation();
+        originalPoint = MouseInfo.getPointerInfo().getLocation();
+        Random random = new Random();
+        while (originalPoint.x > 0) {
+            Result out = getResultFromScreen(imageWidth, imageHeight, forInputSize, network);
             System.out.println("Live result: " + out);
-            if (out.getOutput().getData()[0] >= 0.8) {
-                hits++;
+            // Checks for "TNT"
+            if (out.getOutput().getData()[0] >= 0.6) {
+                captureIndex = avoidTNT(captureIndex, robot);
             } else {
-                hits = 0;
+                // We execute a couple of small turns and tests to really check the intended target is not a TNT block
+                // Small turn
+                robot.keyPress(KeyEvent.VK_LEFT);
+                Thread.sleep(20);
+                robot.keyRelease(KeyEvent.VK_LEFT);
+
+                out = getResultFromScreen(imageWidth, imageHeight, forInputSize, network);
+                System.out.println("Live result: " + out);
+                // Checks for "Mine"
+                if (out.getOutput().getData()[0] >= 0.6) {
+                    captureIndex = avoidTNT(captureIndex, robot);
+                } else {
+                    // Small turn
+                    robot.keyPress(KeyEvent.VK_LEFT);
+                    Thread.sleep(20);
+                    robot.keyRelease(KeyEvent.VK_LEFT);
+
+                    out = getResultFromScreen(imageWidth, imageHeight, forInputSize, network);
+                    System.out.println("Live result: " + out);
+                    // Checks for "TNT"
+                    if (out.getOutput().getData()[0] >= 0.6) {
+                        captureIndex = avoidTNT(captureIndex, robot);
+                    } else {
+                        captureImage("Mine/" , captureIndex++);
+                        System.out.println("Mining!");
+                        robot.keyPress(KeyEvent.VK_E);
+                        robot.keyRelease(KeyEvent.VK_E);
+                        robot.keyPress(KeyEvent.VK_E);
+                        robot.keyRelease(KeyEvent.VK_E);
+                        Thread.sleep(23000);
+                    }
+                }
             }
-            if (hits > 2 || timeout > 500) {
-                System.out.println("Fishing... " + hits + " : " + timeout);
-                hits = 0;
-                timeout = 0;
-                Robot robot = new Robot();
 
-                robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-                Thread.sleep(10);
-                robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-
-                Thread.sleep(3000);
-
-                robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-                Thread.sleep(10);
-                robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-
-                Thread.sleep(2000);
-            } else {
-                timeout++;
+            if(random.nextBoolean()) {
+                System.out.println("Turn left");
+                robot.keyPress(KeyEvent.VK_LEFT);
+                Thread.sleep(250);
+                robot.keyRelease(KeyEvent.VK_LEFT);
+            } else if(random.nextBoolean()) {
+                System.out.println("Turn right");
+                robot.keyPress(KeyEvent.VK_RIGHT);
+                Thread.sleep(250);
+                robot.keyRelease(KeyEvent.VK_RIGHT);
             }
+            if(random.nextBoolean()) {
+                System.out.println("Forward");
+                robot.keyPress(KeyEvent.VK_UP);
+                Thread.sleep(1500);
+                robot.keyRelease(KeyEvent.VK_UP);
+            }
+
+            originalPoint = MouseInfo.getPointerInfo().getLocation();
             Thread.sleep(100);
         }
+    }
+
+    private static int avoidTNT(int captureIndex, Robot robot) throws AWTException, IOException, InterruptedException {
+        captureImage("TNT/" , captureIndex++);
+        System.out.println("Avoid TNT: Turn left");
+        robot.keyPress(KeyEvent.VK_LEFT);
+        Thread.sleep(250);
+        robot.keyRelease(KeyEvent.VK_LEFT);
+        return captureIndex;
+    }
+
+    private static Result getResultFromScreen(int imageWidth, int imageHeight, int forInputSize, NeuralNetwork network) throws AWTException, IOException {
+        BufferedImage image = getBufferedImage();
+        Vec testInput = getVecFromImage(imageWidth, imageHeight, forInputSize,image);
+        Result out = network.evaluate(testInput);
+        return out;
     }
 
     private static void readNetwork(NeuralNetwork newNetwork, String filename) throws IOException {
@@ -124,32 +172,37 @@ public class BloxburgAutoFish {
     }
 
     private static void trainNetwork(int imageWidth, int imageHeight, int forInputSize, int batchUpdate, NeuralNetwork network, String writeName) throws IOException {
-        //        List<File> filesList1 = getFilesFromDirectory("TestData/Bloxburg fishing/Fish");
-//        List<File> filesList2 = getFilesFromDirectory("TestData/Bloxburg fishing/Float");
-        List<File> filesList1 = getFilesFromDirectory("TestData/Bloxburg fishing 2/Fish");
-        List<File> filesList2 = getFilesFromDirectory("TestData/Bloxburg fishing 2/Float");
-//        List<File> filesList1 = getFilesFromDirectory("TestData/Simple/Fish");
-//        List<File> filesList2 = getFilesFromDirectory("TestData/Simple/Float");
-        List<File> allFiles = new ArrayList<>();
-        allFiles.addAll(filesList1);
-        allFiles.addAll(filesList2);
+        List<File> filesList1 = getFilesFromDirectory("TestData/Bloxburg mine/TNT");
+        List<File> filesList2 = getFilesFromDirectory("TestData/Bloxburg mine/Mine");
+        int min = Math.min(filesList1.size(),filesList2.size());
+
 
         int batchCount = batchUpdate;
         for (int iterations = 0 ; iterations < 1000 ; iterations++) {
+            // Repeatedly balance out the list to teach by selecting new items from the lists
+            Collections.shuffle(filesList1);
+            Collections.shuffle(filesList2);
+            List<File> allFiles = new ArrayList<>();
+            allFiles.addAll(filesList1.subList(0,min));
+            allFiles.addAll(filesList2.subList(0,min));
             Collections.shuffle(allFiles);
             for (final File fileEntry : allFiles) {
                 Vec input = getDataFromImageFile(imageWidth, imageHeight, forInputSize, fileEntry);
                 Vec expected = new Vec(0.0, 0.0);
-                if (fileEntry.getParent().endsWith("Fish")) {
+                if (fileEntry.getParent().endsWith("TNT")) {
                     expected = new Vec(1.0, 0.0);
-                } else if (fileEntry.getParent().endsWith("Float")) {
+                } else if (fileEntry.getParent().endsWith("Mine")) {
                     expected = new Vec(0.0, 1.0);
                 }
                 Result out2 = network.evaluate(input, expected);
-                System.out.println(iterations + ":" + out2);
+                String suffix = "";
+                if (out2.getCost() > 0.2) {
+                    suffix = "                            **********";
+                }
+                System.out.println(iterations + ":" + out2 + suffix);
 
                 if (--batchCount <= 0) {
-                    System.out.println("Learing...");
+                    System.out.println("Learning...");
                     network.updateFromLearning();
                     batchCount = batchUpdate;
                 }
@@ -169,12 +222,22 @@ public class BloxburgAutoFish {
                         .addLayer(new Layer(forHiddenLayers, Leaky_ReLU))
                         .addLayer(new Layer(forHiddenLayers, Leaky_ReLU))
 
+                        .addLayer(new Layer(forHiddenLayers, Leaky_ReLU))
+                        .addLayer(new Layer(forHiddenLayers, Leaky_ReLU))
+                        .addLayer(new Layer(forHiddenLayers, Leaky_ReLU))
+                        .addLayer(new Layer(forHiddenLayers, Leaky_ReLU))
+
+                        .addLayer(new Layer(forHiddenLayers, Leaky_ReLU))
+                        .addLayer(new Layer(forHiddenLayers, Leaky_ReLU))
+                        .addLayer(new Layer(forHiddenLayers, Leaky_ReLU))
+                        .addLayer(new Layer(forHiddenLayers, Leaky_ReLU))
+
 //                        .addLayer(new Layer(forHiddenLayers, ReLU))
 //                        .addLayer(new Layer(forHiddenLayers, ReLU))
 //                        .addLayer(new Layer(forHiddenLayers, ReLU))
 //                        .addLayer(new Layer(forHiddenLayers, ReLU))
 
-                        .addLayer(new Layer(forHiddenLayers, Sigmoid, 0.5))
+//                        .addLayer(new Layer(forHiddenLayers, Sigmoid, 0.5))
 //                        .addLayer(new Layer(forHiddenLayers, Sigmoid, 0.5))
 //                        .addLayer(new Layer(forHiddenLayers, Sigmoid, 0.5))
 
@@ -194,14 +257,10 @@ public class BloxburgAutoFish {
     }
 
     private static void printResults(int imageWidth, int imageHeight, int forInputSize, NeuralNetwork network) throws IOException {
-//        Vec testInput = getDataFromImage(imageWidth, imageHeight, forInputSize, new File("TestData/Bloxburg fishing/Fish/t_0.png"));
-        Vec testInput = getDataFromImageFile(imageWidth, imageHeight, forInputSize, new File("TestData/Bloxburg fishing 2/Fish/t_1.png"));
-//        Vec testInput = getDataFromImage(imageWidth, imageHeight, forInputSize, new File("TestData/Simple/Fish/t_2.png"));
+        Vec testInput = getDataFromImageFile(imageWidth, imageHeight, forInputSize, new File("TestData/Bloxburg mine/TNT/a_29.png"));
         Result out1 = network.evaluate(testInput);
         System.out.println("Result fish: " + out1);
-//        testInput = getDataFromImage(imageWidth, imageHeight, forInputSize, new File("TestData/Bloxburg fishing/Float/t_2.png"));
-        testInput = getDataFromImageFile(imageWidth, imageHeight, forInputSize, new File("TestData/Bloxburg fishing 2/Float/t_0.png"));
-//        testInput = getDataFromImage(imageWidth, imageHeight, forInputSize, new File("TestData/Simple/Float/t_0.png"));
+        testInput = getDataFromImageFile(imageWidth, imageHeight, forInputSize, new File("TestData/Bloxburg mine/Mine/a_88.png"));
         out1 = network.evaluate(testInput);
         System.out.println("Result float: " + out1);
     }
@@ -234,15 +293,15 @@ public class BloxburgAutoFish {
                 int rgb = scaledImage.getRGB(x,y);
                 Color colour = new Color(rgb);
                 colour = new Color(colour.getRed(),0,0);
+                // The TNT is red so the more intense (or bigger) the red "box" seen on the screen the more we will turn away from it
                 forInput[i++] = colour.getRed() / 256.0f;
-                // The rippling water effect has a lot of green and blue noise, so we only consider the red channel
 //                forInput[i++] = colour.getGreen() / 256.0f;
 //                forInput[i++] = colour.getBlue() / 256.0f;
                 scaledImage.setRGB(x,y,colour.getRGB());
             }
         }
 
-//        ImageIO.write(scaledImage,"png", new File("target/t.png"));
+        ImageIO.write(scaledImage,"png", new File("target/t.png"));
 
         Vec input = new Vec(forInput);
         return input;
@@ -256,28 +315,26 @@ public class BloxburgAutoFish {
             // Cast
             // Right mouse button, rotate and tilt until the fishing float is in the far left hand middle of the screen
             // Right mouse button and down, as much overhead as possible
-            BufferedImage bufferedImage = getBufferedImage();
-            File file = new File("target/images/b_"+i+".png");
-            Files.createDirectories(Paths.get(file.toURI()));
-            boolean status = ImageIO.write(bufferedImage, "png", file);
-            System.out.println("Screen Captured ? " + status + " File Path:- " + file.getAbsolutePath());
+            captureImage("",i);
             Thread.sleep(500);
             i++;
         }
+    }
+
+    private static void captureImage(String directory , int i) throws AWTException, IOException {
+        BufferedImage bufferedImage = getBufferedImage();
+        File file = new File("target/images/"+directory+"aa_"+ i +".png");
+        Files.createDirectories(Paths.get(file.toURI()));
+        boolean status = ImageIO.write(bufferedImage, "png", file);
+        System.out.println("Screen Captured ? " + status + " File Path:- " + file.getAbsolutePath());
     }
 
     private static BufferedImage getBufferedImage() throws AWTException {
         Robot robot = new Robot();
 
         Rectangle rectangle = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
-        /*
-        Rectangle rectangle = new Rectangle(0, 0, 0, 0);
-        for (GraphicsDevice gd : GraphicsEnvironment.getLocalGraphicsEnvironment().getScreenDevices()) {
-            rectangle = screenRect.union(gd.getDefaultConfiguration().getBounds());
-        }
-        */
         BufferedImage bufferedImage = robot.createScreenCapture(rectangle);
-        bufferedImage = bufferedImage.getSubimage(0,bufferedImage.getHeight()/4, bufferedImage.getWidth() / 6, bufferedImage.getHeight()/2);
+        bufferedImage = bufferedImage.getSubimage(bufferedImage.getWidth() / 4,bufferedImage.getHeight()/6, bufferedImage.getWidth() / 2, (bufferedImage.getHeight() * 2)/3);
         return bufferedImage;
     }
 }
