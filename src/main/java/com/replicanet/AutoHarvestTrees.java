@@ -27,30 +27,42 @@ public class AutoHarvestTrees {
 
                 doMoveActionFor(robot, KeyEvent.VK_D, 2500);
                 doKeyAction(robot, KeyEvent.VK_O);
+                doKeyAction(robot, KeyEvent.VK_O);
                 doKeyAction(robot, KeyEvent.VK_2);
-                doPlanting(robot,-964,423);
-                doPlanting(robot,-1015,438);
-                doPlanting(robot,-1081,465);
-                doPlanting(robot,-1177,503);
+                doPlanting(robot,-1116,379);
+                doPlanting(robot,-1035,373);
+                doPlanting(robot,-975,364);
+                doPlanting(robot,-934,357);
                 doKeyAction(robot, KeyEvent.VK_2);
                 AutoSmelt.reliableMoveTo(robot, originalPoint.x, originalPoint.y);
                 doKeyAction(robot, KeyEvent.VK_I);
+                doKeyAction(robot, KeyEvent.VK_I);
+                doPlantAction(robot);
                 doKeyAction(robot, KeyEvent.VK_1);
+                doHarvestAction(robot);
+                doHarvestAction(robot);
+                doHarvestAction(robot);
                 doHarvestAction(robot);
                 doKeyAction(robot, KeyEvent.VK_1);
 
 
                 doMoveActionFor(robot, KeyEvent.VK_A, 2500);
                 doKeyAction(robot, KeyEvent.VK_O);
+                doKeyAction(robot, KeyEvent.VK_O);
                 doKeyAction(robot, KeyEvent.VK_2);
-                doPlanting(robot,-309 , 424);
-                doPlanting(robot,-285,439);
-                doPlanting(robot,-205,463);
-                doPlanting(robot,-142,501);
+                doPlanting(robot,-126,379);
+                doPlanting(robot,-214,371);
+                doPlanting(robot,-281,360);
+                doPlanting(robot,-324 , 353);
                 doKeyAction(robot, KeyEvent.VK_2);
                 AutoSmelt.reliableMoveTo(robot, originalPoint.x, originalPoint.y);
                 doKeyAction(robot, KeyEvent.VK_I);
+                doKeyAction(robot, KeyEvent.VK_I);
+                doPlantAction(robot);
                 doKeyAction(robot, KeyEvent.VK_1);
+                doHarvestAction(robot);
+                doHarvestAction(robot);
+                doHarvestAction(robot);
                 doHarvestAction(robot);
                 doKeyAction(robot, KeyEvent.VK_1);
             }
@@ -63,8 +75,8 @@ public class AutoHarvestTrees {
     }
 
     private static void doPlanting(Robot robot, int x, int y) throws InterruptedException {
-        for (int xd = -20 ; xd <= 20 ; xd+=10) {
-            for (int yd = -20 ; yd <= 20 ; yd+=10) {
+        for (int xd = -20 ; xd <= 20 ; xd+=5) {
+            for (int yd = -20 ; yd <= 20 ; yd+=5) {
                 AutoSmelt.reliableMoveToFast(robot,x+xd,y+yd);
                 doPlantAction(robot);
             }
@@ -97,5 +109,15 @@ public class AutoHarvestTrees {
         robot.keyPress(KeyEvent.VK_S);
         Thread.sleep(1000);
         robot.keyRelease(KeyEvent.VK_S);
+    }
+
+    private static void doKeySwitch(Robot robot) throws InterruptedException {
+        robot.keyPress(KeyEvent.VK_ALT);
+        Thread.sleep(100);
+        robot.keyPress(KeyEvent.VK_TAB);
+        Thread.sleep(100);
+        robot.keyPress(KeyEvent.VK_TAB);
+        Thread.sleep(100);
+        robot.keyRelease(KeyEvent.VK_ALT);
     }
 }

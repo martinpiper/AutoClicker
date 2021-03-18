@@ -115,8 +115,7 @@
       <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_97.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_98.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_99.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/replicanet/AutoSmelt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/replicanet/AutoSmelt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/replicanet/BloxburgAutoFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/replicanet/BloxburgAutoFish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/replicanet/AutoHarvestTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/replicanet/AutoHarvestTrees.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +162,7 @@
       <recent name="com.replicanet" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AutoHarvestTrees">
+  <component name="RunManager" selected="Application.AutoClicker attack!">
     <configuration name="AutoBloxburgMine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoBloxburgMine" />
       <module name="AutoClicker" />
@@ -405,55 +404,35 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="646" y="96" width="627" height="872" key="#&lt;template&gt;_of_Application" timestamp="1606013242410">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="646" y="96" width="627" height="872" key="#&lt;template&gt;_of_Application/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1606013242410" />
-    <state x="669" y="138" key="#BloxburgAutoFish" timestamp="1606013217842">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="669" y="138" key="#BloxburgAutoFish/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1606013217842" />
-    <state x="440" y="94" key="#Project_Structure" timestamp="1606020135095">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="#Project_Structure/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1606020135095" />
-    <state x="-1824" y="-6" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613547510446">
+    <state x="-1824" y="-6" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615959077306">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state x="-1824" y="-6" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1613547510446" />
+    <state x="-1824" y="-6" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1615959077306" />
     <state x="144" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1609137680253" />
     <state x="-1599" y="70" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1612964612813">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
     <state x="-1599" y="70" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1612964612813" />
-    <state x="505" y="274" key="#org.jetbrains.debugger.memory.view.InstancesWindow" timestamp="1606035778618">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="83" key="GridCell.Tab.0.bottom" timestamp="1615978541795">
+      <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state x="505" y="274" key="#org.jetbrains.debugger.memory.view.InstancesWindow/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1606035778618" />
-    <state x="867" y="272" width="735" height="614" key="#xdebugger.XInspectDialog" timestamp="1606035800475">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="83" key="GridCell.Tab.0.bottom/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1615978541795" />
+    <state width="1871" height="153" key="GridCell.Tab.0.bottom/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1613991591461" />
+    <state width="1237" height="83" key="GridCell.Tab.0.center" timestamp="1615978541795">
+      <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state x="867" y="272" width="735" height="614" key="#xdebugger.XInspectDialog/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1606035800475" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1613567206343">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="83" key="GridCell.Tab.0.center/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1615978541795" />
+    <state width="1871" height="153" key="GridCell.Tab.0.center/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1613991591460" />
+    <state width="1237" height="83" key="GridCell.Tab.0.left" timestamp="1615978541794">
+      <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state width="1237" height="147" key="GridCell.Tab.0.bottom/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1613547828189" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1613567206343" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1613567206342">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="83" key="GridCell.Tab.0.left/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1615978541794" />
+    <state width="1871" height="153" key="GridCell.Tab.0.left/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1613991591460" />
+    <state width="1237" height="83" key="GridCell.Tab.0.right" timestamp="1615978541795">
+      <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state width="1237" height="147" key="GridCell.Tab.0.center/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1613547828188" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1613567206342" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1613567206342">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1237" height="147" key="GridCell.Tab.0.left/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1613547828188" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1613567206342" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1613567206342">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1237" height="147" key="GridCell.Tab.0.right/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1613547828188" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1613567206342" />
+    <state width="1237" height="83" key="GridCell.Tab.0.right/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1615978541795" />
+    <state width="1871" height="153" key="GridCell.Tab.0.right/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1613991591461" />
     <state width="1237" height="147" key="GridCell.Tab.1.bottom" timestamp="1613547828189">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
@@ -474,30 +453,14 @@
     </state>
     <state width="1237" height="147" key="GridCell.Tab.1.right/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1613547828189" />
     <state width="1877" height="256" key="GridCell.Tab.1.right/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1607695281028" />
-    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1606012999605">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="490" y="174" key="Maven.ArtifactSearchDialog/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1606012999605" />
     <state x="775" y="453" key="ReplaceDuplicatesPrompt" timestamp="1613532680505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="453" key="ReplaceDuplicatesPrompt/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1613532680505" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1606020415841">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1606020415841" />
     <state x="810" y="394" key="extract.method.dialog" timestamp="1613532676325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="810" y="394" key="extract.method.dialog/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1613532676325" />
-    <state x="666" y="253" width="587" height="534" key="find.popup" timestamp="1606099252709">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="666" y="253" width="587" height="534" key="find.popup/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1606099252709" />
-    <state x="-1623" y="148" key="run.anything.popup" timestamp="1605683605827">
-      <screen x="-1920" y="-6" width="1280" height="693" />
-    </state>
-    <state x="-1623" y="148" key="run.anything.popup/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1605683605827" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613533329651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
