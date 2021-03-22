@@ -6,116 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="979a7c1c-b192-44d7-aee1-92d527c261ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing 2/Fish/a_1033.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing 2/Fish/a_1034.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing 2/Fish/a_898.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing 2/Fish/a_899.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing 2/Fish/a_900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing 2/Fish/a_916.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing 2/Fish/a_917.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing 2/Fish/a_918.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing 2/Fish/a_931.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_66.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_69.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_85.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_89.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Fish/t_91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_63.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_67.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_68.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_75.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_77.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_78.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_79.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_82.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_83.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_87.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_92.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_93.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_94.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_95.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_97.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_98.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Bloxburg fishing/Float/t_99.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/replicanet/AutoHarvestTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/replicanet/AutoHarvestTrees.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +52,7 @@
       <recent name="com.replicanet" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AutoClicker attack!">
+  <component name="RunManager" selected="Application.AutoHarvestFruit">
     <configuration name="AutoBloxburgMine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoBloxburgMine" />
       <module name="AutoClicker" />
@@ -256,6 +146,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AutoHarvestFruit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoHarvestFruit" />
+      <module name="AutoClicker" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.replicanet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AutoHarvestPlant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.replicanet.AutoHarvestPlant" />
       <module name="AutoClicker" />
@@ -325,20 +229,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BloxburgAutoFish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.replicanet.BloxburgAutoFish" />
-      <module name="AutoClicker" />
-      <shortenClasspath name="MANIFEST" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.replicanet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BloxburgAutoMine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.replicanet.BloxburgAutoMine" />
       <module name="AutoClicker" />
@@ -375,17 +265,17 @@
       <item itemvalue="Application.AutoSmelt wood" />
       <item itemvalue="Application.AutoBloxburgMine" />
       <item itemvalue="Application.AutoHarvestPlant" />
-      <item itemvalue="Application.BloxburgAutoFish" />
       <item itemvalue="Application.BloxburgAutoMine" />
       <item itemvalue="Application.AutoHarvestTrees" />
+      <item itemvalue="Application.AutoHarvestFruit" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AutoHarvestFruit" />
         <item itemvalue="Application.AutoHarvestTrees" />
         <item itemvalue="Application.BloxburgAutoMine" />
         <item itemvalue="Application.AutoHarvestPlant" />
         <item itemvalue="Application.AutoBloxburgMine" />
-        <item itemvalue="Application.BloxburgAutoFish" />
       </list>
     </recent_temporary>
   </component>
@@ -413,46 +303,42 @@
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
     <state x="-1599" y="70" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1612964612813" />
-    <state width="1237" height="83" key="GridCell.Tab.0.bottom" timestamp="1615978541795">
+    <state width="1237" height="83" key="GridCell.Tab.0.bottom" timestamp="1616413301514">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state width="1237" height="83" key="GridCell.Tab.0.bottom/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1615978541795" />
+    <state width="1237" height="83" key="GridCell.Tab.0.bottom/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1616413301514" />
     <state width="1871" height="153" key="GridCell.Tab.0.bottom/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1613991591461" />
-    <state width="1237" height="83" key="GridCell.Tab.0.center" timestamp="1615978541795">
+    <state width="1237" height="83" key="GridCell.Tab.0.center" timestamp="1616413301513">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state width="1237" height="83" key="GridCell.Tab.0.center/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1615978541795" />
+    <state width="1237" height="83" key="GridCell.Tab.0.center/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1616413301513" />
     <state width="1871" height="153" key="GridCell.Tab.0.center/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1613991591460" />
-    <state width="1237" height="83" key="GridCell.Tab.0.left" timestamp="1615978541794">
+    <state width="1237" height="83" key="GridCell.Tab.0.left" timestamp="1616413301513">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state width="1237" height="83" key="GridCell.Tab.0.left/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1615978541794" />
+    <state width="1237" height="83" key="GridCell.Tab.0.left/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1616413301513" />
     <state width="1871" height="153" key="GridCell.Tab.0.left/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1613991591460" />
-    <state width="1237" height="83" key="GridCell.Tab.0.right" timestamp="1615978541795">
+    <state width="1237" height="83" key="GridCell.Tab.0.right" timestamp="1616413301513">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
-    <state width="1237" height="83" key="GridCell.Tab.0.right/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1615978541795" />
+    <state width="1237" height="83" key="GridCell.Tab.0.right/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1616413301513" />
     <state width="1871" height="153" key="GridCell.Tab.0.right/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1613991591461" />
     <state width="1237" height="147" key="GridCell.Tab.1.bottom" timestamp="1613547828189">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
     <state width="1237" height="147" key="GridCell.Tab.1.bottom/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1613547828189" />
-    <state width="1877" height="256" key="GridCell.Tab.1.bottom/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1607695281028" />
     <state width="1237" height="147" key="GridCell.Tab.1.center" timestamp="1613547828189">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
     <state width="1237" height="147" key="GridCell.Tab.1.center/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1613547828189" />
-    <state width="1877" height="256" key="GridCell.Tab.1.center/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1607695281028" />
     <state width="1237" height="147" key="GridCell.Tab.1.left" timestamp="1613547828189">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
     <state width="1237" height="147" key="GridCell.Tab.1.left/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1613547828189" />
-    <state width="1877" height="256" key="GridCell.Tab.1.left/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1607695281027" />
     <state width="1237" height="147" key="GridCell.Tab.1.right" timestamp="1613547828189">
       <screen x="-1920" y="-6" width="1280" height="693" />
     </state>
     <state width="1237" height="147" key="GridCell.Tab.1.right/-1920.-6.1280.693/0.0.1920.1040@-1920.-6.1280.693" timestamp="1613547828189" />
-    <state width="1877" height="256" key="GridCell.Tab.1.right/-1920.-6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1607695281028" />
     <state x="775" y="453" key="ReplaceDuplicatesPrompt" timestamp="1613532680505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
