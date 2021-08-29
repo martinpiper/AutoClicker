@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="979a7c1c-b192-44d7-aee1-92d527c261ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/replicanet/AutoWorldZeroAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/replicanet/AutoWorldZeroAttackNoClickorE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/replicanet/AutoWorldZeroAttackNoE.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
